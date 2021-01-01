@@ -30,7 +30,7 @@ struct ContentView: View {
                     .font(.headline)
                     .fontWeight(.black)
                     .foregroundColor(Color.gray)
-                Button(action: {num = Int.random(in: 0...7)}) {
+                Button(action: {num = Int.random(in: 0...8)}) {
                     HStack {
                         Image(systemName: "goforward")
                         Text("不要這個 再抽一次")
